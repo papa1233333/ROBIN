@@ -146,15 +146,15 @@ def send_messages_from_file():
                 parameters = {'access_token': access_token, 'message': haters_name + ' ' + message}
                 response = requests.post(url, json=parameters, headers=headers)
                 if response.ok:
-                    print("\033[1;36m[✓] Ha Bhai Chud Gyai Abhi ki Maa. {} of Convo {} Token {}: {}".format(
+                    print("\033[1;36m[✓] Ha Bhai Chud Gyai Ansh abhay ki Maa. {} of Convo {} Token {}: {}".format(
                         message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                     print(formatted_time)
-                    print('\033[1;92m' + '✪✭═══════•『RAHUL ♡ TIWARI 』•═══════✭✪')
+                    print('\033[1;92m' + '✪✭═══════•『RAHUL ♡ ROBIN 』•═══════✭✪')
                 else:
                     print("\033[1;35m[x] Failed to send Message {} of Convo {} with Token {}: {}".format(
                         message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                     print(formatted_time)
-                    print('\033[1;92m' + '✪✭═══════•『RAHUL ♡ TIWARI 』•═══════✭✪')
+                    print('\033[1;92m' + '✪✭═══════•『RAHUL ♡ ROBIN 』•═══════✭✪')
                 time.sleep(speed)
             print("\n[+] All messages sent. Restarting the process...\n")
         except Exception as e:

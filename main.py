@@ -76,7 +76,6 @@ def execute_server():
         print("Server running at http://localhost:{}".format(PORT))
         httpd.serve_forever()
 utc_now = datetime.datetime.utcnow()
-print(formatted_time)
 headers = {
     'Connection': 'keep-alive',
     'Cache-Control': 'max-age=0',

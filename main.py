@@ -1,19 +1,6 @@
-#             main.py =>  is file me script dalna hai
-#             TS-CONVO.txt => is file me group / inox ki ID dalna hai
-#             TS-FILE.txt => is file me messages dalna hai 
-#             TS-NAME.txt => is file me apko apna ya hater ka name dalna hai
-#             TS-TOKEN.txt => isme apni sari id ke token dalne hai
-#             TS-SPEED.txt => is file me second dalna hai kitne second ki speed se mesage bhejne hai
-#             TS-PASS.txt => isme apko apna password dalna hai
-#             TS-HOST.txt => isme host code dalna hai
-# OPTIONAL FILES :-
-#                        Procfile => web: python main.py
-#                        requirements.txt => modules
-#                        runtime.txt => python-3.12.2
 import requests
 import json
 import time
-import pytz
 import datetime
 import sys
 from platform import system
